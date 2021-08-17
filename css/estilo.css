@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+body{
+    background: #000 url("../img/mario-fundo.jpg") repeat;
+}
+
+p{
+    margin: 0 20px;
+}
+
+#container{
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 0.5em;
+    background: rgba(0, 0, 0, 0.1);
+    font-family: pixelmania;
+    font-size: 0.6em;
+    word-spacing: 1em;
+    letter-spacing: 0.3em;
+    line-height: 2em;
+    
+}
+
+#intro{
+    position: relative;
+    top: 20px;
+
+}
+
+#formulario{
+    position: relative;
+    top: 30px;
+    left: 200px;
+    color: #000;
+}
+
+@font-face {
+    font-family: pixelmania;
+    src: url("../font/Pixelmania.woff");
+}
+
+h3, h4{
+    text-indent: 50px;
+    color: darkblue;
+    text-align: center;
+    margin: 10px;
+}
+
+label, input, select{
+    width: 50%;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    margin: 0 auto;
+}
+
+
+
