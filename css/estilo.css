@@ -15,13 +15,16 @@ p{
 #container{
     margin: 20px auto;
     width: 80%;
+    border: 1px dotted black;
     border-radius: 0.5em;
-    background: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(rgba(80, 80, 80, 0.2),rgba(255, 255, 255, 0.5));
+    
     font-family: pixelmania;
     font-size: 0.6em;
     word-spacing: 1em;
     letter-spacing: 0.3em;
     line-height: 2em;
+    height: 90%;
     
 }
 
@@ -41,7 +44,9 @@ p{
 @font-face {
     font-family: pixelmania;
     src: url("../font/Pixelmania.woff");
+    
 }
+
 
 h3, h4{
     text-indent: 50px;
@@ -58,5 +63,13 @@ label, input, select{
     margin: 0 auto;
 }
 
+div#formulario .btn-dark:hover{
+    background: #FFFF00;
+    color: #000;
 
+}
+
+div#formulario .btn:hover{
+    box-shadow: 2px 2px #000;
+}
 
